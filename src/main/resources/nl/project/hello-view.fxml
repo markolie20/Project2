@@ -1,16 +1,460 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="nl.project.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane prefHeight="708.0" prefWidth="1059.0" style="-fx-background-color: grey;" BorderPane.alignment="CENTER">
+         <children>
+            <Pane layoutX="20.0" layoutY="540.0" prefHeight="520.0" prefWidth="500.0" style="-fx-background-color: #768d99; -fx-border-color: black;" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="1200.0">
+               <children>
+                  <Text layoutX="148.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ranglijst" textAlignment="CENTER" underline="true" wrappingWidth="204.4921875">
+                     <font>
+                        <Font name="Bell MT Italic" size="48.0" />
+                     </font>
+                  </Text>
+                  <Pane layoutY="100.0" prefHeight="100.0" prefWidth="500.0" scaleX="0.75" scaleY="0.75" scaleZ="0.75" style="-fx-background-color: white; -fx-border-color: black;">
+                     <children>
+                        <Pane layoutX="75.0" layoutY="7.0" prefHeight="87.0" prefWidth="87.0" scaleX="0.75" scaleY="0.75" scaleZ="0.75" style="-fx-background-color: #afafaf; -fx-background-radius: 75;" />
+                        <ProgressBar layoutX="174.0" layoutY="70.0" prefWidth="200.0" progress="1.0" scaleX="0.75" scaleY="0.75" scaleZ="0.75" />
+                        <Text layoutX="180.0" layoutY="40.0" scaleX="0.75" scaleY="0.75" scaleZ="0.75" strokeType="OUTSIDE" strokeWidth="0.0" text="Krijn Schelvis" wrappingWidth="186.46092987060547">
+                           <font>
+                              <Font name="Bell MT" size="30.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="15.0" layoutY="70.0" scaleX="0.75" scaleY="0.75" strokeType="OUTSIDE" strokeWidth="0.0" text="#4">
+                           <font>
+                              <Font size="48.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="225.0" prefHeight="100.0" prefWidth="500.0" style="-fx-background-color: white; -fx-border-color: black;">
+                     <children>
+                        <Pane layoutX="75.0" layoutY="7.0" prefHeight="87.0" prefWidth="87.0" style="-fx-background-color: #afafaf; -fx-background-radius: 75;" />
+                        <ProgressBar layoutX="174.0" layoutY="70.0" prefWidth="200.0" progress="0.75" />
+                        <Text layoutX="180.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mark Olieman" wrappingWidth="186.46092987060547">
+                           <font>
+                              <Font name="Bell MT" size="30.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="15.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="#5">
+                           <font>
+                              <Font size="48.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutY="350.0" prefHeight="100.0" prefWidth="500.0" scaleX="0.75" scaleY="0.75" style="-fx-background-color: white; -fx-border-color: black;">
+                     <children>
+                        <Pane layoutX="75.0" layoutY="7.0" prefHeight="87.0" prefWidth="87.0" scaleX="0.75" scaleY="0.75" scaleZ="0.75" style="-fx-background-color: #afafaf; -fx-background-radius: 75;" />
+                        <ProgressBar layoutX="174.0" layoutY="70.0" prefWidth="200.0" progress="0.5" scaleX="0.75" scaleY="0.75" scaleZ="0.75" />
+                        <Text layoutX="180.0" layoutY="40.0" scaleX="0.75" scaleY="0.75" scaleZ="0.75" strokeType="OUTSIDE" strokeWidth="0.0" text="Ruben Vermeulen" wrappingWidth="248.68314361572266">
+                           <font>
+                              <Font name="Bell MT" size="30.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="15.0" layoutY="70.0" scaleX="0.75" scaleY="0.75" strokeType="OUTSIDE" strokeWidth="0.0" text="#6">
+                           <font>
+                              <Font size="48.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="21.0" layoutY="159.0" prefHeight="380.0" prefWidth="500.0" style="-fx-background-color: #768d99; -fx-border-color: black;" AnchorPane.bottomAnchor="560.0" AnchorPane.leftAnchor="20.0">
+               <children>
+                  <Text layoutX="55.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Persoonlijke info" textAlignment="CENTER" underline="true" wrappingWidth="390.4922180175781">
+                     <font>
+                        <Font name="Bell MT Italic" size="48.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="20.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Naam: Mark Olieman" wrappingWidth="301.9831027984619">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="20.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LeerlingNr: 19054033" wrappingWidth="301.9831027984619">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="20.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email: molieman2002@gmail.com" wrappingWidth="459.9831027984619">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="20.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Geboortedatum: 22/02/2002" wrappingWidth="407.9831027984619">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="20.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TelefoonNr: 0636591748" wrappingWidth="350.9831027984619">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutX="564.0" layoutY="18.0" prefHeight="500.0" prefWidth="1100.0" style="-fx-background-color: #768d99; -fx-border-color: black;" AnchorPane.leftAnchor="540.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+               <children>
+                  <Text layoutX="478.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Badges" textAlignment="CENTER" underline="true" wrappingWidth="204.4921875">
+                     <font>
+                        <Font name="Bell MT Italic" size="48.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="580.0" layoutY="85.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="500.0" layoutY="85.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="420.0" layoutY="85.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="20.0" layoutY="85.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="740.0" layoutY="85.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="260.0" layoutY="85.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="900.0" layoutY="85.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="180.0" layoutY="85.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="660.0" layoutY="85.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="820.0" layoutY="85.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="100.0" layoutY="85.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="340.0" layoutY="85.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="1060.0" layoutY="85.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="980.0" layoutY="85.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="580.0" layoutY="185.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="500.0" layoutY="185.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="420.0" layoutY="185.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="20.0" layoutY="185.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="740.0" layoutY="185.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="260.0" layoutY="185.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="900.0" layoutY="185.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="180.0" layoutY="185.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="660.0" layoutY="185.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="820.0" layoutY="185.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="100.0" layoutY="185.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="340.0" layoutY="185.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="1060.0" layoutY="185.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="980.0" layoutY="185.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="580.0" layoutY="285.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="500.0" layoutY="285.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="420.0" layoutY="285.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="20.0" layoutY="285.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="740.0" layoutY="285.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="260.0" layoutY="285.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="900.0" layoutY="285.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="180.0" layoutY="285.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="660.0" layoutY="285.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="820.0" layoutY="285.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="100.0" layoutY="285.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="340.0" layoutY="285.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="1060.0" layoutY="285.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="980.0" layoutY="285.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="580.0" layoutY="385.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="500.0" layoutY="385.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="420.0" layoutY="385.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="20.0" layoutY="385.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="740.0" layoutY="385.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="260.0" layoutY="385.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="900.0" layoutY="385.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="180.0" layoutY="385.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="660.0" layoutY="385.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="820.0" layoutY="385.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="100.0" layoutY="385.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="340.0" layoutY="385.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="1060.0" layoutY="385.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="105.0" fitWidth="80.0" layoutX="980.0" layoutY="385.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/badge.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="21.0" layoutY="26.0" prefHeight="100.0" prefWidth="500.0" style="-fx-background-color: #768d99; -fx-border-color: black;" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+               <children>
+                  <Pane layoutX="75.0" layoutY="7.0" prefHeight="87.0" prefWidth="87.0" style="-fx-background-color: #afafaf; -fx-background-radius: 75;" />
+                  <ProgressBar layoutX="174.0" layoutY="70.0" prefWidth="200.0" progress="0.75" />
+                  <Text layoutX="181.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mark Olieman" wrappingWidth="186.46092987060547">
+                     <font>
+                        <Font name="Bell MT" size="30.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutX="564.0" layoutY="550.0" prefHeight="520.0" prefWidth="1100.0" style="-fx-background-color: #768d99; -fx-border-color: black;" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="540.0" AnchorPane.rightAnchor="20.0">
+               <children>
+                  <Text layoutX="330.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Voortgang" textAlignment="CENTER" underline="true" wrappingWidth="500.4921875">
+                     <font>
+                        <Font name="Bell MT Italic" size="48.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="366.0" fitWidth="453.0" layoutX="14.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/trees.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="366.0" fitWidth="453.0" layoutX="780.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/trees.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="288.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200 KG CO2 minder uitgestoten" textAlignment="CENTER" wrappingWidth="584.9296875">
+                     <font>
+                        <Font name="Constantia Bold Italic" size="64.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="34.0" layoutY="77.0" rotate="-26.6" strokeType="OUTSIDE" strokeWidth="0.0" text="Lekker bezig!" textAlignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="825.0" layoutY="126.0" rotate="23.5" strokeType="OUTSIDE" strokeWidth="0.0" text="Samen redden we de wereld!" textAlignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children></AnchorPane>
+   </center>
+   <left>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="200.0" style="-fx-border-width: 0 2 0 0; -fx-border-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="250.0" prefWidth="198.0" text="Profiel" textAlignment="CENTER" />
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: grey; -fx-border-color: black; -fx-border-width: 1 0 1 0;" />
+            <Button mnemonicParsing="false" prefHeight="250.0" prefWidth="198.0" text="Ranglijst" />
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: grey; -fx-border-color: black; -fx-border-width: 1 0 1 0;" />
+            <Button mnemonicParsing="false" prefHeight="250.0" prefWidth="198.0" text="Instellingen" />
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </VBox>
+   </left>
+</BorderPane>
