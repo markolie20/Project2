@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nl.project.FormController">
+   <center>
+      <AnchorPane prefHeight="708.0" prefWidth="1059.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox layoutX="44.0" layoutY="517.0" prefHeight="500.0" prefWidth="1500.0" style="-fx-border-color: #3944F7; -fx-border-width: 5;">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="500.0">
+                     <children>
+                        <Label prefHeight="62.5" prefWidth="547.0" text="Benzine auto">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="62.5" prefWidth="547.0" text="Diesel auto">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="62.5" prefWidth="547.0" text="Electrische Auto">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="62.5" prefWidth="547.0" text="Openbaar vervoer">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="62.5" prefWidth="547.0" text="Vliegtuig">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="62.5" prefWidth="547.0" text="Electrische Auto">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="62.5" prefWidth="547.0" text="Overige">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="62.5" prefWidth="547.0" text="Overige">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="500.0">
+                     <children>
+                        <TextField prefHeight="62.5" promptText="Voer aantal km's gereisd in">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="TEXT" />
+                           </cursor>
+                        </TextField>
+                        <TextField prefHeight="62.5" promptText="Voer aantal km's gereisd in">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="TEXT" />
+                           </cursor>
+                        </TextField>
+                        <TextField prefHeight="62.5" promptText="Voer aantal km's gereisd in">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="TEXT" />
+                           </cursor>
+                        </TextField>
+                        <TextField prefHeight="62.5" promptText="Voer aantal km's gereisd in">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="TEXT" />
+                           </cursor>
+                        </TextField>
+                        <TextField prefHeight="62.5" promptText="Voer aantal km's gereisd in">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="TEXT" />
+                           </cursor>
+                        </TextField>
+                        <TextField prefHeight="62.5" promptText="Voer aantal km's gereisd in">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="TEXT" />
+                           </cursor>
+                        </TextField>
+                        <TextField prefHeight="62.5" promptText="Voer aantal km's gereisd in">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="TEXT" />
+                           </cursor>
+                        </TextField>
+                        <TextField prefHeight="62.5" promptText="Voer aantal km's gereisd in">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="TEXT" />
+                           </cursor>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="500.0">
+                     <children>
+                        <Button fx:id="btnProfile1" alignment="CENTER" mnemonicParsing="false" onAction="#ProfileButtonClicked" prefHeight="62.5" prefWidth="500.0" style="-fx-background-color: #3944F7;" text="Submit" textAlignment="CENTER">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Button>
+                        <Button fx:id="btnProfile11" alignment="CENTER" mnemonicParsing="false" onAction="#ProfileButtonClicked" prefHeight="62.5" prefWidth="500.0" style="-fx-background-color: #3944F7;" text="Submit" textAlignment="CENTER">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Button>
+                        <Button fx:id="btnProfile12" alignment="CENTER" mnemonicParsing="false" onAction="#ProfileButtonClicked" prefHeight="62.5" prefWidth="500.0" style="-fx-background-color: #3944F7;" text="Submit" textAlignment="CENTER">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Button>
+                        <Button fx:id="btnProfile13" alignment="CENTER" mnemonicParsing="false" onAction="#ProfileButtonClicked" prefHeight="62.5" prefWidth="500.0" style="-fx-background-color: #3944F7;" text="Submit" textAlignment="CENTER">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Button>
+                        <Button fx:id="btnProfile14" alignment="CENTER" mnemonicParsing="false" onAction="#ProfileButtonClicked" prefHeight="62.5" prefWidth="500.0" style="-fx-background-color: #3944F7;" text="Submit" textAlignment="CENTER">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Button>
+                        <Button fx:id="btnProfile15" alignment="CENTER" mnemonicParsing="false" onAction="#ProfileButtonClicked" prefHeight="62.5" prefWidth="500.0" style="-fx-background-color: #3944F7;" text="Submit" textAlignment="CENTER">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Button>
+                        <Button fx:id="btnProfile16" alignment="CENTER" mnemonicParsing="false" onAction="#ProfileButtonClicked" prefHeight="62.5" prefWidth="500.0" style="-fx-background-color: #3944F7;" text="Submit" textAlignment="CENTER">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Button>
+                        <Button fx:id="btnProfile17" alignment="CENTER" mnemonicParsing="false" onAction="#ProfileButtonClicked" prefHeight="62.5" prefWidth="500.0" style="-fx-background-color: #3944F7;" text="Submit" textAlignment="CENTER">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <Pane layoutX="41.0" layoutY="26.0" prefHeight="100.0" prefWidth="1510.0" style="-fx-background-color: #3944F7; -fx-border-color: black;" AnchorPane.leftAnchor="41.0" AnchorPane.topAnchor="20.0">
+               <children>
+                  <Pane layoutX="16.0" layoutY="6.0" prefHeight="87.0" prefWidth="87.0" style="-fx-background-color: #afafaf; -fx-background-radius: 75;" />
+                  <ProgressBar layoutX="174.0" layoutY="70.0" prefHeight="18.0" prefWidth="1320.0" progress="0.75" />
+                  <Text layoutX="181.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mark Olieman" wrappingWidth="186.46092987060547">
+                     <font>
+                        <Font name="Bell MT" size="30.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <HBox layoutX="41.0" layoutY="140.0" prefHeight="350.0" prefWidth="1500.0">
+               <children>
+                  <ListView fx:id="NmmrListView" prefHeight="350.0" prefWidth="91.0" />
+                  <ListView fx:id="NameListView" prefHeight="200.0" prefWidth="500.0" />
+                  <ListView fx:id="KMListView" prefHeight="200.0" prefWidth="500.0" />
+                  <ListView fx:id="PointsListView" prefHeight="200.0" prefWidth="500.0" />
+               </children>
+            </HBox>
+         </children></AnchorPane>
+   </center>
+   <left>
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="200.0" style="-fx-border-width: 0 2 0 0; -fx-border-color: black; -fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <Separator prefHeight="43.0" prefWidth="198.0" visible="false" />
+            <Button fx:id="formToProfile" alignment="CENTER" mnemonicParsing="false" onAction="#ProfileButtonClicked" prefHeight="100.0" prefWidth="198.0" style="-fx-background-color: #3944F7;" text="Profiel" textAlignment="CENTER">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Separator prefHeight="43.0" prefWidth="198.0" visible="false" />
+            <Button fx:id="formToForm" alignment="CENTER" mnemonicParsing="false" prefHeight="100.0" prefWidth="198.0" style="-fx-background-color: #3944F7;" text="Invullen" textAlignment="CENTER">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Separator prefHeight="43.0" prefWidth="198.0" visible="false" />
+            <Button fx:id="formToRanklist" alignment="CENTER" mnemonicParsing="false" onAction="#RanklistButtonClicked" prefHeight="100.0" prefWidth="198.0" style="-fx-background-color: #3944F7;" text="Ranglijst" textAlignment="CENTER">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Separator prefHeight="43.0" prefWidth="198.0" visible="false" />
+            <Button fx:id="formToSettings" alignment="CENTER" mnemonicParsing="false" onAction="#SettingsButtonClicked" prefHeight="100.0" prefWidth="198.0" style="-fx-background-color: #3944F7;" text="Instellingen" textAlignment="CENTER">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </VBox>
+   </left>
+</BorderPane>
